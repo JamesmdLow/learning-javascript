@@ -5,7 +5,8 @@ function multiply(a, b) {
 function multiply_logging(a, b) {
     console.log(a * b);
 }
-function subtract(a,b) {
+
+function subtract(a, b) {
     console.log(a - b);
 }
 

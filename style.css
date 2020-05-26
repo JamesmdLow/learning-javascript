@@ -1,0 +1,10 @@
+/*This is a css (cascading style sheets) file, you can use this to style your website */
+/* To learn about css styling, read the book or google */
+/* Basically, html is used to write your website in html, css is used to style your website*/
+h1 {
+    background-color: red;
+}
+
+h2 {
+    background-color: black;
+}
