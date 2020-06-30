@@ -83,15 +83,16 @@ user.foo2(); // guess what this prints?
  */
 
 const calvin = new Person('Cal', 'Pang');
-calvin.displayName(); // what does this print?
+calvin.displayName(); // what does this print? cal pang
 
 const james = new Person('James', 'Md');
-james.displayName(); // what does this print?
+james.displayName(); // what does this print? james md
+
 
 // ok, here comes the challenge, what does the below print?
 // if you got it wrong, do some reading here https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8#:~:text=%E2%80%9Cthis%E2%80%9D%20Refers%20to%20an%20Invoker,contains%20the%20method%20being%20invoked.&text=So%20the%20value%20of%20this,a%20method%20is%20being%20invoked.
 
-james.displayName.call(calvin); // what does this print?
+james.displayName.call(calvin); // what does this print? clavin
 
 /**
  * Ok, now that you've read that link, hopefully you'll understand why 'this' is so confusing for most poeple.
@@ -101,13 +102,13 @@ james.displayName.call(calvin); // what does this print?
  */
 
 const sally = new Person('Sally', 'Bustos');
-sally.displayName(); // what does this print?
+sally.displayName(); // what does this print? sally bustos
 
 const jill = new Person('Jill', 'Watson');
-jill.displayName(); // what does this print?
+jill.displayName(); // what does this print? jill watson
 
 // here comes the challenge!!!
 let mystery = sally.displayName.bind(jill); // what does this print and why? if you don't undersatnd it, go back to the link and read again!
 
-
+jill watson
 

@@ -16,3 +16,17 @@ console.log("The area is:" + theArea);
 
 function Name(James) {
 } console.log("Jame");
+
+var x;
+if (!x) {
+    console.log(x); // what will this print? x
+}
+if (x === undefined) {
+    console.log(x); // what will this print?
+}
+if (x == undefined) {
+    console.log(x); // what will this print? And why does intellij say 'type coersion'. Look up google
+    // to find out more about type coersion
+    //undefined
+    //Type coercion is a means to convert one data type to another.
+}

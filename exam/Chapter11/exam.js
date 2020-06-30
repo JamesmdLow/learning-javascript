@@ -244,4 +244,4 @@ function makeClosureCounter() {
  console.log(`closure counter is now: ${closureCounter()}`); // count is now: 2
  console.log(`closure counter is now: ${closureCounter()}`); // count is now: 3
 
-// hint: see page 499 for help
+// hint: see page 499 for help........
